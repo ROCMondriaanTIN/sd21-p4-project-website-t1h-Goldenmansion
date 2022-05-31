@@ -11,7 +11,7 @@ body {
 
 .navbar {
     width: 20%;
-    height: 100vh;
+    height: 80vh;
     position: fixed;
     top: 0;
     float: right;
@@ -35,9 +35,18 @@ body {
     text-decoration: underline;
 }
 
+.dropdown-menu a {
+    color: black;
+}
+
+.dropdown-menu a:hover {
+    color:blue;
+}
+
 .nav-item a img {
     max-width: 80%;
 }
+
 #logo {
     position: absolute;
     top: 0;
@@ -51,4 +60,24 @@ body {
 
 #logo img {
     max-width: 18%;
+}
+
+.footer {
+    background-color: rgba(79, 77, 80, 0.65);
+    width: 100%;
+    height: 15vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+
+footer div i {
+    font-size: 24px;
+    color: greenyellow;
+}
+
+footer div a img {
+    max-width: 50%;
+    height: 50%;
 }

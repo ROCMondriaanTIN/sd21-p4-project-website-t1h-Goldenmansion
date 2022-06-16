@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
 body {
     margin: 0;
     padding: 0;
@@ -28,10 +30,18 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 0 10px rgba(108, 107, 107, 1);
+}
+
+.nav-item a:focus {
+    color: whitesmoke;
 }
 
 .nav-item a:hover {
     color: yellow;
+    opacity: 0.7;
     text-decoration: underline;
 }
 
@@ -60,24 +70,4 @@ body {
 
 #logo img {
     max-width: 18%;
-}
-
-.footer {
-    background-color: rgba(79, 77, 80, 0.65);
-    width: 100%;
-    height: 15vh;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    display: flex;
-}
-
-footer div i {
-    font-size: 24px;
-    color: greenyellow;
-}
-
-footer div a img {
-    max-width: 50%;
-    height: 50%;
 }

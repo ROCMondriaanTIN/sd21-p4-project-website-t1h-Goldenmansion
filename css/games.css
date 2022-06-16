@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+.heroimg img{
+height: 600px;
+width: 75%;
+}
+
+.navbar {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.425);
+    text-align: center;
+}
+
+.nav-item {
+    padding: 20px 0 20px 0;
+}
+
+.nav-item a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+}
+
+.nav-item a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.nav-item a img {
+    max-width: 80%;
+}
+#logo {
+    position: absolute;
+    top: 0;
+    text-align: center !important;
+    margin-top: 10px;
+}
+
+#logo a {
+    max-width: 18%;
+}
+
+#logo img {
+    max-width: 18%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.cardPlek{
+    color: white;
+}
+.card{
+    padding: 20px;
+}

@@ -52,7 +52,7 @@ const rowShower = document.querySelector('.card-row');
 for(let i = 0; i < gamers.length; i++){
     const gamerObj = gamers[i];
     rowShower.innerHTML += `
-    <div class="col-md-3 col-sm-4">
+    <div class="col-md-3 col-sm-12">
     <div class="card" style="width: 18rem;">
     <img src="${gamerObj.img}" class="card-img-top" alt="..."> 
     <div class="card-body">

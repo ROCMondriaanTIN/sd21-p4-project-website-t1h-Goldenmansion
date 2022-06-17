@@ -81,7 +81,7 @@ const spelGenres = [
 
 
 
-for(let i = 0; i < spelGenres.length; i++){
+for(let i = 0; i < spelGenres.length -6; i++){
     const spelgenre = spelGenres[i];
 
     rowShower.innerHTML += `<div class="col-md-3 col-sm-12">

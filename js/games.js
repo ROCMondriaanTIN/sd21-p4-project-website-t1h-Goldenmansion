@@ -6,7 +6,7 @@ const gamers = [
         age: 21,
         city: 'new york',
         game: 'call of duty',
-        beschrijving: 'vi va valencio is een hele goede cod player. hij heeft al meerdere malen biljoenen aan geld binnen gehaald',
+        beschrijving: 'casey is een hele goede cod player. hij heeft al meerdere malen biljoenen aan geld binnen gehaald',
         img: '../img/casey.jpeg'
     },
     {
@@ -14,7 +14,7 @@ const gamers = [
         age: 21,
         city: 'new york',
         game: 'call of duty',
-        beschrijving: 'vi va valencio is een hele goede cod player. hij heeft al meerdere malen biljoenen aan geld binnen gehaald',
+        beschrijving: 'rachel is een hele goede cod player. hij heeft al meerdere malen biljoenen aan geld binnen gehaald',
         img: '../img/rachel.jpeg'
     },
     {

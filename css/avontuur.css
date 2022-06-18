@@ -1,0 +1,45 @@
+.columns {
+    display: flex;
+    gap: 2rem;
+    border: 10px solid black;
+   
+    
+}
+.columns > * {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+
+.nav-list{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+    
+}
+.nav-list li {
+    flex-shrink: 1;
+    gap: 2rem;
+}
+.card .radient {
+    color: aqua;
+}
+
+.parent{
+    width: 700px;
+    height: 500px;
+    background-color: blue;
+    position: relative;
+}
+.child {
+   position: absolute;
+    background-color: red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%
+}

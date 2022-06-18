@@ -8,7 +8,7 @@ const spelGenres = [
         title: 'gta 5',
         beschrijving: 'red in over 200 video games since his creation. Depicted as a short, pudgy, Italian plumber who resides in the Mushroom Kingdom, his adventures generally center on rescuing Princess Peach from the Koopa villain Bowser. Mario has access to a variety of power-ups that give him different abilities. Marios fraternal twin brother is Luigi',
         genre: 'platform',
-        img: '../pewdiepie.jpg'
+        img: '../gta5.jpg'
 
 
     },
@@ -16,7 +16,8 @@ const spelGenres = [
         id:8,
         title: 'super smash ultimate',
         beschrijving: 'red in over 200 video games since his creation. Depicted as a short, pudgy, Italian plumber who resides in the Mushroom Kingdom, his adventures generally center on rescuing Princess Peach from the Koopa villain Bowser. Mario has access to a variety of power-ups that give him different abilities. Marios fraternal twin brother is Luigi',
-        genre: 'platform'
+        genre: 'platform',
+        img: '../img/ultimate.jpg'
 
 
     },
@@ -25,7 +26,7 @@ const spelGenres = [
         title: 'runescape',
         beschrijving: 'red in over 200 video games since his creation. Depicted as a short, pudgy, Italian plumber who resides in the Mushroom Kingdom, his adventures generally center on rescuing Princess Peach from the Koopa villain Bowser. Mario has access to a variety of power-ups that give him different abilities. Marios fraternal twin brother is Luigi',
         genre: 'platform',
-        img: '../img/download.jpg'
+        img: '../img/runescape.jpg'
         
 
 

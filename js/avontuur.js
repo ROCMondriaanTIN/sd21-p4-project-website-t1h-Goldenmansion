@@ -5,7 +5,8 @@ const spelGenres = [
         id:1,
         title: 'mario odessy',
         beschrijving: 'Mario[e] is a character created by Japanese video game designer Shigeru Miyamoto. He is the title character of the Mario franchise and the mascot of Japanese video game company Nintendo. Mario has appeared in over 200 video games since his creation. Depicted as a short, pudgy, Italian plumber who resides in the Mushroom Kingdom, his adventures generally center on rescuing Princess Peach from the Koopa villain Bowser. Mario has access to a variety of power-ups that give him different abilities. Marios fraternal twin brother is Luigi',
-        genre: 'avontuur'
+        genre: 'avontuur',
+        img: '../img/mario.jpg'
 
 
     },
@@ -14,7 +15,8 @@ const spelGenres = [
         id:2,
         title: 'zelda',
         beschrijving: 'Mario[e] is a character created by Japanese video game designer Shigeru Miyamoto. He is the title character of the Mario franchise and the mascot of Japanese video game company Nintendo. Mario has appeared in over 200 video games since his creation. Depicted as a short, pudgy, Italian plumber who resides in the Mushroom Kingdom, his adventures generally center on rescuing Princess Peach from the Koopa villain Bowser. Mario has access to a variety of power-ups that give him different abilities. Marios fraternal twin brother is Luigi',
-        genre: 'avontuur'
+        genre: 'avontuur',
+        img: '../img/'
 
 
     },

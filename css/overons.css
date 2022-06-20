@@ -1,0 +1,186 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-bg {
+    background: linear-gradient(45deg, rgba(180, 180, 160, 0.9) 0%, rgba(154, 161, 115, 0.9) 100%)!important;
+}
+
+
+.logo {
+    color: yellow!important;
+    font-size: 36px!important;
+}
+
+.logo sup {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar .container-fluid .navbar-nav {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.navbar .container-fluid ul .nav-item {
+    margin: 0 25px 0 25px;
+}
+
+.navbar .container-fluid ul .nav-item a {
+    color: whitesmoke;
+    font-family: 'League Gothic', sans-serif;
+    transition: 0.4s;
+}
+
+.navbar .container-fluid ul .nav-item a:hover {
+    color: rgba(245, 245, 245, 0.548);
+    text-decoration: underline;
+    transform: translateX(3px);
+}
+
+.dropdown-item {
+    color: black!important;
+}
+
+#aboutus {
+    background-color: #f9f8ff;
+}
+
+.aboutus-title {
+    text-align: center;
+}
+
+.aboutus-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.aboutus-title p {
+    margin-bottom: 0;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aboutus-pagina {
+    padding-top: 100px;
+}
+
+.aboutus-pagina .card-body .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.aboutus-pagina .card-body .card-text {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.aboutus-pagina .list-group {
+    text-align: center;
+}
+
+.aboutus-pagina .list-group .list-group-item {
+    color: rgb(143, 143, 5);
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#footer {
+    background: linear-gradient(45deg, rgba(180, 180, 160, 0.9) 0%, rgba(154, 161, 115, 0.9) 100%);
+    margin-top: 11px;
+}
+
+.footer-top {
+    border-top: 5px solid black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#footer .footer-top .container .row .col-lg-3 a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    margin-bottom: 5px;
+}
+
+#footer .footer-top .container .row .col-lg-3 a:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+#footer .footer-top .container .row .col-lg-3 p {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#footer .footer-top .container .row .col-lg-3 p i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: rgba(231, 255, 10, 0.788);
+    font-weight: bolder;
+}
+
+.footer-bottom {
+    border-top: 2px solid rgba(231, 255, 10, 0.788);
+}
+
+.footer-bottom .footer-words {
+    position: relative;
+    top: 15px;
+}
+
+.footer-bottom sup {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-bottom .footer-words h3 {
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.footer-bottom .social-links {
+    position: relative;
+    top: -15px;
+}
+
+.footer-bottom .social-links a {
+    color: whitesmoke;
+    margin-right: 2px;
+}
+
+.footer-bottom .social-links a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.footer-bottom .social-links a i {
+    font-size: 24px;
+}
+
+/* -------------------------------footer------------------------------ */

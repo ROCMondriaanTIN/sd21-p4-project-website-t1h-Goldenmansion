@@ -111,6 +111,87 @@ body {
 }
 
 .contact-form button {
-    border-color: rgb(214 215 216 / 60%);
-    color: rgb(214 215 216 / 100%);
+    border-color: black;
+    color: black;
 }
+
+#footer {
+    background: linear-gradient(45deg, rgba(180, 180, 160, 0.9) 0%, rgba(154, 161, 115, 0.9) 100%);
+    margin-top: 11px;
+}
+
+.footer-top {
+    border-top: 5px solid black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#footer .footer-top .container .row .col-lg-3 a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    margin-bottom: 5px;
+}
+
+#footer .footer-top .container .row .col-lg-3 a:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+#footer .footer-top .container .row .col-lg-3 p {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#footer .footer-top .container .row .col-lg-3 p i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: rgba(231, 255, 10, 0.788);
+    font-weight: bolder;
+}
+
+.footer-bottom {
+    border-top: 2px solid rgba(231, 255, 10, 0.788);
+}
+
+.footer-bottom .footer-words {
+    position: relative;
+    top: 15px;
+}
+
+.footer-bottom sup {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-bottom .footer-words h3 {
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.footer-bottom .social-links {
+    position: relative;
+    top: -15px;
+}
+
+.footer-bottom .social-links a {
+    color: whitesmoke;
+    margin-right: 2px;
+}
+
+.footer-bottom .social-links a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.footer-bottom .social-links a i {
+    font-size: 24px;
+}
+
+/* -------------------------------footer------------------------------ */
